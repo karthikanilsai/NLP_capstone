@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AlertTriangle, Plus, X } from 'lucide-react';
+import { AlertTriangle, ExternalLink, Plus, X } from 'lucide-react';
 import type { ComparisonResponse, PolicyRecord } from '../../shared/types';
 import { useInsureMate } from '../context/InsureMateContext';
 import { categoryLabel } from '../utils/formatters';
@@ -140,6 +140,17 @@ export function ComparePage() {
                           >
                             {p.name}
                           </Link>
+                          {p.officialUrl && (
+                            <a
+                              href={p.officialUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-[#525252] hover:text-[#171717] hover:underline"
+                            >
+                              Official Website
+                              <ExternalLink className="h-3 w-3" aria-hidden="true" />
+                            </a>
+                          )}
                         </div>
                         <button
                           type="button"
