@@ -1,0 +1,148 @@
+{
+  "selected_model": "logistic_regression",
+  "model_selection_metric": "5-fold stratified cross-validation macro F1 on training split",
+  "model_comparison": {
+    "logistic_regression": {
+      "cv_macro_f1_mean": 0.8073215618231098,
+      "cv_macro_f1_std": 0.07325193400990546,
+      "fold_scores": [
+        0.8233146591970121,
+        0.7965560961226595,
+        0.6974233283056812,
+        0.7929411764705881,
+        0.9263725490196079
+      ]
+    },
+    "linear_svm": {
+      "cv_macro_f1_mean": 0.802424125925674,
+      "cv_macro_f1_std": 0.07488793584611222,
+      "fold_scores": [
+        0.8477023629964806,
+        0.7965560961226595,
+        0.6745475113122172,
+        0.7933146591970122,
+        0.9
+      ]
+    },
+    "multinomial_naive_bayes": {
+      "cv_macro_f1_mean": 0.787538695910213,
+      "cv_macro_f1_std": 0.05403699369167608,
+      "fold_scores": [
+        0.8205128205128205,
+        0.8249019607843138,
+        0.705630705723585,
+        0.7416479925303454,
+        0.845
+      ]
+    }
+  },
+  "holdout_accuracy": 0.86,
+  "holdout_classification_report": {
+    "ask_clarification": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 10.0
+    },
+    "modify_constraint": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 10.0
+    },
+    "provide_requirements": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 10.0
+    },
+    "request_recommendations": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 10.0
+    },
+    "resolve_conflict": {
+      "precision": 0.7,
+      "recall": 0.7,
+      "f1-score": 0.7,
+      "support": 10.0
+    },
+    "accuracy": 0.86,
+    "macro avg": {
+      "precision": 0.8666666666666666,
+      "recall": 0.86,
+      "f1-score": 0.8607655502392344,
+      "support": 50.0
+    },
+    "weighted avg": {
+      "precision": 0.8666666666666667,
+      "recall": 0.86,
+      "f1-score": 0.8607655502392345,
+      "support": 50.0
+    }
+  },
+  "holdout_confusion_matrix": [
+    [
+      9,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      8,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      1,
+      7
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "ask_clarification",
+    "modify_constraint",
+    "provide_requirements",
+    "request_recommendations",
+    "resolve_conflict"
+  ],
+  "training_rows": 199,
+  "testing_rows": 50,
+  "total_rows": 249,
+  "class_counts": {
+    "provide_requirements": 50,
+    "modify_constraint": 50,
+    "resolve_conflict": 50,
+    "request_recommendations": 50,
+    "ask_clarification": 49
+  },
+  "classes": [
+    "ask_clarification",
+    "modify_constraint",
+    "provide_requirements",
+    "request_recommendations",
+    "resolve_conflict"
+  ],
+  "note": "Synthetic/curated examples are included. Holdout metrics are an internal development estimate, not a production accuracy guarantee. Validate with unseen real user conversations before deployment.",
+  "deployment_training_rows": 249
+}

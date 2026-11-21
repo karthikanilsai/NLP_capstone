@@ -1,0 +1,7 @@
+{
+  "_instructions": [
+    "Map a real policy ID to the exact official product-page URLs that describe that policy.",
+    "Only add URLs after verifying that the page belongs to that exact policy.",
+    "Example: \"actual-policy-id\": [\"https://insurer.example/product/policy-page\"]"
+  ]
+}

@@ -1,0 +1,17 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+*.db
+*.db-shm
+*.db-wal
+.env*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+ml/scraped_data/raw/*.jsonl
+ml/scraped_data/cleaned/*.jsonl
+ml/scraped_data/pdfs/*.pdf

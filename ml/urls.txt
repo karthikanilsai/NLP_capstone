@@ -1,0 +1,7 @@
+# Add one permitted URL per line. Use category|URL to tag scraped content.
+# Examples (replace with actual permitted product pages):
+# health|https://www.example.com/health-insurance/product-page
+# car|https://www.example.com/car-insurance/product-page
+# life|https://www.example.com/life-insurance/product-page
+# travel|https://www.example.com/travel-insurance/product-page
+# Check each website's terms and robots.txt before scraping.

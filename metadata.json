@@ -1,0 +1,6 @@
+{
+  "name": "InsureMate",
+  "description": "AI-powered insurance recommendation assistant that understands natural-language requirements and explains policy matches transparently.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

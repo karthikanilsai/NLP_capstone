@@ -1,0 +1,250 @@
+text,intent
+I need health insurance for my family,provide_requirements
+I want a policy with ten lakh coverage,provide_requirements
+I must have zero depreciation cover,provide_requirements
+Looking for a low premium health plan,provide_requirements
+I need coverage for pre existing diseases,provide_requirements
+I want car insurance with roadside assistance,provide_requirements
+I prefer cashless hospitals near Bengaluru,provide_requirements
+Need travel insurance for Europe,provide_requirements
+I want life cover for twenty years,provide_requirements
+My budget is fifteen thousand per year,provide_requirements
+Include maternity benefits in the plan,provide_requirements
+I need a policy without room rent limits,provide_requirements
+Add critical illness rider,provide_requirements
+I want comprehensive car insurance,provide_requirements
+Cover baggage loss during travel,provide_requirements
+Actually change my budget to twenty thousand,modify_constraint
+Remove maternity benefits from my requirements,modify_constraint
+I no longer need roadside assistance,modify_constraint
+Make the coverage amount ten lakh instead,modify_constraint
+Change the policy tenure to thirty years,modify_constraint
+I would like to update my age to forty,modify_constraint
+Instead choose third party car insurance,modify_constraint
+Increase my annual budget,modify_constraint
+Decrease the coverage amount,modify_constraint
+I changed my mind about zero depreciation,modify_constraint
+Also add OPD cover,modify_constraint
+Replace the destination with Singapore,modify_constraint
+Make the waiting period shorter,modify_constraint
+I don't need return of premium anymore,modify_constraint
+Update my family size to four,modify_constraint
+Keep third party cover and remove zero depreciation,resolve_conflict
+I can increase my budget to twenty five thousand,resolve_conflict
+Make maternity optional instead,resolve_conflict
+Keep the lower premium option,resolve_conflict
+I accept the two year waiting period,resolve_conflict
+Switch to comprehensive cover,resolve_conflict
+Drop engine protection but keep third party,resolve_conflict
+I prefer pure term over return of premium,resolve_conflict
+I can stretch my budget for better coverage,resolve_conflict
+Remove the conflicting requirement,resolve_conflict
+Keep the existing cover type,resolve_conflict
+I am okay with a higher deductible,resolve_conflict
+Choose the first option and remove the other,resolve_conflict
+I accept the suggested compromise,resolve_conflict
+Keep maternity but make room rent limit acceptable,resolve_conflict
+Show me the recommended insurance plans,request_recommendations
+Generate recommendations now,request_recommendations
+Find suitable health policies,request_recommendations
+Show available car insurance policies,request_recommendations
+Go ahead and recommend plans,request_recommendations
+Proceed with the recommendations,request_recommendations
+Get recommendations for my requirements,request_recommendations
+Show policies matching my profile,request_recommendations
+Find the best matching plans,request_recommendations
+I am ready to see plans,request_recommendations
+Recommend a travel insurance policy,request_recommendations
+Show life insurance options,request_recommendations
+Compare suitable policies for me,request_recommendations
+Generate my insurance shortlist,request_recommendations
+Show matching policies,request_recommendations
+What is a pre existing disease waiting period?,ask_clarification
+Why is co payment important?,ask_clarification
+What does zero depreciation mean?,ask_clarification
+Explain the difference between comprehensive and third party,ask_clarification
+How does cashless hospitalization work?,ask_clarification
+What is a deductible?,ask_clarification
+Can you explain room rent limits?,ask_clarification
+What does return of premium mean?,ask_clarification
+How are waiting periods calculated?,ask_clarification
+What is covered under travel insurance?,ask_clarification
+Why do insurers have exclusions?,ask_clarification
+How does a no claim bonus work?,ask_clarification
+What is a critical illness rider?,ask_clarification
+Can you explain policy tenure?,ask_clarification
+What is claim settlement ratio?,ask_clarification
+I am searching for medical insurance for two people,provide_requirements
+Please include coverage for existing illnesses,provide_requirements
+My required sum insured is twenty lakh,provide_requirements
+I would like a health policy with no copay,provide_requirements
+Need a motor policy with engine protection,provide_requirements
+Please add cashless repair garages,provide_requirements
+I am looking for term life insurance,provide_requirements
+Include accidental death protection in my life plan,provide_requirements
+I need travel cover for a thirty day trip,provide_requirements
+Please include emergency medical expenses overseas,provide_requirements
+Change the health cover to fifteen lakh,modify_constraint
+Please update the premium budget to twelve thousand,modify_constraint
+I want to remove the OPD requirement,modify_constraint
+Do not include baggage protection anymore,modify_constraint
+Switch my destination from France to Japan,modify_constraint
+Set my trip duration to fifteen days,modify_constraint
+I would rather have a twenty year term,modify_constraint
+Change my vehicle manufacturing year to 2022,modify_constraint
+Make roadside assistance optional,modify_constraint
+Update my family members count to three,modify_constraint
+Can we keep third party but remove the add on?,resolve_conflict
+I will choose comprehensive instead of third party,resolve_conflict
+Make the maternity benefit optional to fit budget,resolve_conflict
+I agree to a higher premium for no room cap,resolve_conflict
+Keep zero depreciation and change to comprehensive,resolve_conflict
+I accept the two year PED period to reduce premium,resolve_conflict
+I prefer the cheaper plan even without OPD,resolve_conflict
+Keep the existing policy but remove engine protection,resolve_conflict
+I can compromise on the deductible,resolve_conflict
+Let's prioritize cover amount over a low premium,resolve_conflict
+Please generate the final shortlist,request_recommendations
+I want to see the matching plans now,request_recommendations
+Can you recommend policies based on these details,request_recommendations
+Display the top health insurance options,request_recommendations
+Find me the best car policy,request_recommendations
+Show the final recommendations,request_recommendations
+Proceed to policy recommendations,request_recommendations
+Give me suitable travel insurance plans,request_recommendations
+List matching life insurance plans,request_recommendations
+"I am done entering requirements, show plans",request_recommendations
+Could you tell me what PED stands for?,ask_clarification
+Can you describe a waiting period in insurance?,ask_clarification
+What is the difference between co-pay and deductible?,ask_clarification
+Why would a policy have a room rent cap?,ask_clarification
+How do insurers calculate the premium?,ask_clarification
+What does cashless garage mean?,ask_clarification
+Can you explain a critical illness benefit?,ask_clarification
+What is the meaning of sum insured restoration?,ask_clarification
+How does return to invoice cover work?,ask_clarification
+What does Schengen compliant insurance mean?,ask_clarification
+I am looking for a family floater medical policy,provide_requirements
+Please find health cover for my parents,provide_requirements
+I need a ten lakh sum insured for myself,provide_requirements
+My annual premium budget is around eight thousand rupees,provide_requirements
+I want a health plan with no room rent restriction,provide_requirements
+Please include coverage for daycare treatments,provide_requirements
+I need a policy that covers hospital expenses,provide_requirements
+I prefer cashless treatment at hospitals in Hyderabad,provide_requirements
+I want a health insurance plan with restoration benefit,provide_requirements
+I need coverage for maternity expenses,provide_requirements
+Please include a critical illness rider in my life policy,provide_requirements
+I am searching for a pure term life plan,provide_requirements
+I need life cover of one crore,provide_requirements
+I want a life insurance policy for thirty years,provide_requirements
+I need comprehensive insurance for my car,provide_requirements
+Please include roadside assistance in my motor policy,provide_requirements
+I want zero depreciation protection for my vehicle,provide_requirements
+I need insurance for a new car registered in 2024,provide_requirements
+I am travelling to Singapore for two weeks and need travel cover,provide_requirements
+I need overseas emergency medical coverage,provide_requirements
+Please cover lost baggage during my international trip,provide_requirements
+I want trip cancellation protection,provide_requirements
+I need travel insurance that meets Schengen visa requirements,provide_requirements
+I prefer a policy with a high claim settlement ratio,provide_requirements
+I need insurance for two adults and one child,provide_requirements
+Change the sum insured to fifteen lakh,modify_constraint
+Please reduce my annual premium limit to six thousand,modify_constraint
+Increase the budget to thirty thousand rupees,modify_constraint
+Update the age to thirty five years,modify_constraint
+Change the number of family members to five,modify_constraint
+Set my policy tenure to twenty five years,modify_constraint
+Change my health insurance to individual cover,modify_constraint
+Add maternity cover to my requirements,modify_constraint
+Remove the room rent restriction from my preferences,modify_constraint
+I want to include a no claim bonus now,modify_constraint
+Please take out the critical illness rider,modify_constraint
+Change my destination to Thailand,modify_constraint
+Update my travel duration to ten days,modify_constraint
+Remove trip cancellation from the list,modify_constraint
+Add baggage protection to my travel policy,modify_constraint
+Switch my car cover to third party only,modify_constraint
+Change the car policy to comprehensive cover,modify_constraint
+I want to add engine protection,modify_constraint
+Remove zero depreciation from my car requirements,modify_constraint
+Make roadside assistance a must have,modify_constraint
+Change the deductible preference to low,modify_constraint
+Update my preferred city to Chennai,modify_constraint
+I no longer want cashless garage coverage,modify_constraint
+Increase my required life cover to two crore,modify_constraint
+Change the premium preference to affordable,modify_constraint
+"The plan cannot meet both conditions, prioritize the higher coverage",resolve_conflict
+I can accept a higher premium if the policy has no room rent cap,resolve_conflict
+"Between low premium and maternity cover, keep maternity cover",resolve_conflict
+"If zero co-pay increases the price, show me the trade-off",resolve_conflict
+I am willing to compromise on the waiting period to lower the premium,resolve_conflict
+Keep the PED benefit even if the premium is slightly higher,resolve_conflict
+Choose the option that balances coverage and affordability,resolve_conflict
+"I cannot have both add-ons, keep engine protection instead",resolve_conflict
+"If the budget is exceeded, remove the less important add-on",resolve_conflict
+I accept a higher deductible in exchange for a cheaper premium,resolve_conflict
+Prioritize comprehensive cover over the lowest price,resolve_conflict
+Keep third party cover but drop the optional add-ons to fit my budget,resolve_conflict
+I will settle for a two year waiting period if there is no better option,resolve_conflict
+Choose the cheaper policy even though it has a room rent limit,resolve_conflict
+I prefer the plan with better coverage over the one with a lower premium,resolve_conflict
+Resolve the budget issue by making OPD optional,resolve_conflict
+Keep maternity and remove OPD so the premium stays affordable,resolve_conflict
+I accept fewer benefits to stay within my budget,resolve_conflict
+"If both requirements conflict, treat coverage as more important",resolve_conflict
+I can relax the cashless hospital preference but not the sum insured,resolve_conflict
+Use the second option because it satisfies more of my mandatory needs,resolve_conflict
+I agree to remove the rider to keep the base policy affordable,resolve_conflict
+Choose a compromise between the waiting period and premium,resolve_conflict
+I am okay with the limitation if the policy covers my main needs,resolve_conflict
+Keep the essential benefits and sacrifice the optional ones,resolve_conflict
+Can I see the policies that fit my requirements?,request_recommendations
+Please display the best matching insurance plans,request_recommendations
+Now prepare my health insurance recommendations,request_recommendations
+Give me a shortlist of suitable policies,request_recommendations
+Which plans match the details I provided?,request_recommendations
+Find policies that satisfy my mandatory conditions,request_recommendations
+Show me the top three matching plans,request_recommendations
+Please rank the available health insurance options,request_recommendations
+Generate a shortlist for my family insurance needs,request_recommendations
+Let me view the recommended motor policies,request_recommendations
+Show the best term insurance options,request_recommendations
+Find matching travel insurance products,request_recommendations
+Present the policies that fit my budget,request_recommendations
+"I have finished entering my preferences, show the plans",request_recommendations
+"Based on my answers, list suitable policies",request_recommendations
+Run the policy matching process now,request_recommendations
+Give me the final list of insurance options,request_recommendations
+Which insurance products should I consider?,request_recommendations
+Display policies that meet most of my requirements,request_recommendations
+Please find the closest policy matches,request_recommendations
+Proceed and create my policy shortlist,request_recommendations
+Show the highest scoring insurance plans,request_recommendations
+Can you list the eligible policies now?,request_recommendations
+Compare the matching plans for my needs,request_recommendations
+Find the most suitable policy for my profile,request_recommendations
+What does pre existing disease mean in health insurance?,ask_clarification
+How does a co payment clause work?,ask_clarification
+What is the difference between sum insured and premium?,ask_clarification
+Why do health policies have waiting periods?,ask_clarification
+What is a room rent sub limit?,ask_clarification
+Can you explain a restoration benefit?,ask_clarification
+What are daycare procedures?,ask_clarification
+What does no claim bonus mean?,ask_clarification
+How is a family floater different from individual cover?,ask_clarification
+What is an OPD benefit?,ask_clarification
+How does a waiver of premium rider work?,ask_clarification
+What is the difference between term and endowment insurance?,ask_clarification
+What does return of premium mean in term insurance?,ask_clarification
+What is a deductible in car insurance?,ask_clarification
+What does zero depreciation cover protect?,ask_clarification
+What is engine protection cover?,ask_clarification
+What is return to invoice cover?,ask_clarification
+What is the difference between third party and own damage cover?,ask_clarification
+How does roadside assistance work?,ask_clarification
+What is covered by travel medical insurance?,ask_clarification
+What happens if my baggage is delayed?,ask_clarification
+What does trip cancellation insurance cover?,ask_clarification
+Why is Schengen compliant travel insurance required?,ask_clarification
+How do insurers decide whether a claim is cashless?,ask_clarification
