@@ -98,7 +98,7 @@ export function AboutPage() {
           04. Demonstration Dataset Transparency
         </h2>
         <p className="text-sm text-[#525252] leading-relaxed">
-          Policies currently loaded in SQLite represent a clearly labeled demonstration dataset with structured clauses, waiting periods, exclusions, and downloadable wording summaries. InsureMate never fabricates insurer logos, unverified premiums, or external official URLs—displaying &ldquo;Official link unavailable&rdquo; or &ldquo;Unverified&rdquo; whenever real insurer data is not attached.
+          Policies currently loaded in SQLite represent a clearly labeled demonstration dataset with structured clauses, waiting periods, exclusions, and downloadable wording summaries. Official website links point to real insurer category pages or the insurance regulator where applicable; they are supporting sources and do not claim to be exact product pages for the demonstration plans. InsureMate does not fabricate insurer logos or unverified premiums.
         </p>
       </section>
     </div>
