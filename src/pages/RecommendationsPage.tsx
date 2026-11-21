@@ -271,7 +271,7 @@ export function RecommendationsPage() {
           )}
           {(recommendations.policyLinkedScrapedPages ?? 0) === 0 && (recommendations.scrapedPagesAvailable ?? 0) > 0 && (
             <p className="mt-3 text-[11px] leading-relaxed text-[#737373]">
-              These passages are shown as supporting research only. They are not treated as verified features of a specific plan until its exact official product page is linked in ml/policy_sources.json.
+              These passages are supporting research only. Official links below point to insurer or regulator websites, not to exact products in the demonstration dataset.
             </p>
           )}
         </section>
